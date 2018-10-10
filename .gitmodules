@@ -1,0 +1,3 @@
+[submodule "jfrteamy-ausbutler"]
+	path = jfrteamy-ausbutler
+	url = https://github.com/emkael/jfrteamy-ausbutler.git
