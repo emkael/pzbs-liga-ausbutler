@@ -46,5 +46,79 @@
     "INFO_ONLY_CURRENT": {
         "pl": "Jedynie dotychczas rozegrane segmenty są brane pod uwagę przy wyliczaniu średniego wyniku przeciwników, znormalizowane wartości dla początkowych rund mogą zatem nie być tak istotne.",
         "en": "Only already played segments are used to calculate opponent's average, so normalized score for the first rounds may not be as significant."
+    },
+    "FOOTER_ANALYSIS":
+	{
+        "pl": "Analiza rozdań programem DeepFinesse",
+        "en": "Board analysis by DeepFinesse"
+    },
+    "FOOTER_AT":
+    {
+	    "pl": " o ",
+        "en": " at "
+    },
+    "FOOTER_GENERATED": {
+	    "pl": ", strona wygenerowana ",
+        "en": ", page generated on "
+    },
+    "FOOTER_OPTIMIZED" : {
+	    "pl": ", optymalizowana dla rozdzielczości 1024x768.",
+        "en": ", optimized for 1024x768 resolution."
+    },
+    "HEADER_BOARD_NO": {
+	    "pl": "Rzd#",
+        "en": "brd#"
+    },
+    "HEADER_BOARDS": {
+	    "pl": "roz-<br>dania",
+        "en": "boards"
+    },
+    "HEADER_IMPBRD": {
+	    "pl": "imp/rzd",
+        "en": "imp/brd"
+    },
+    "HEADER_IMPS": {
+	    "pl": "impy",
+        "en": "imps"
+    },
+    "HEADER_PLACE": {
+	    "pl": "miejsce",
+        "en": "place"
+    },
+    "HEADER_PREV_ROUNDS": {
+	    "pl": "Poprzednia runda:",
+        "en": "Previous rounds"
+    },
+    "HEADER_TABLE": {
+	    "pl": "stół",
+        "en": "table"
+    },
+    "HEADER_TEAM": {
+	    "pl": "team",
+        "en": "team"
+    },
+    "PERCENT": {
+	    "pl": "% rozdań",
+        "en": "% of boards"
+    },
+    "ROUND": {
+	    "pl": "RUNDA ",
+        "en": "ROUND "
+    },
+    "SEGMENT": {
+	    "pl": " SEGMENT ",
+        "en": " SEGMENT "
+    },
+    "WITHOUT_PLAYERS_WITHOUT_CHANCES": {
+	    "pl": "bez zawodników, którzy nie mają szans na rozegranie ",
+        "en": "players without chances to play at least "
+    },
+    "PERCENT_NOT_LISTED": {
+        "pl": "% rozdań",
+        "en": "% of boards"
+    },
+    "PLAYERS_WITHOUT_CHANCES": {
+        "pl": "zawodnicy, którzy nie mają szans na rozegranie ",
+        "en": "players without chances to play at least "
     }
 }
