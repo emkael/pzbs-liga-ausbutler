@@ -8,7 +8,7 @@ Poniższe README nie porusza tematów konfiguracji `jfrteamy-ausbutler`, a wył�
 
 Projekt zawiera dwa pliki wykonywalne:
 
- * `ausbutler-single.sh`, generujący i wysyłający pojedynczy turniej
+ * `ausbutler-single.sh IDENTYFIKATOR_TURNIEJU`, generujący i wysyłający pojedynczy turniej
  * `ausbutler-all.sh`, iterujący po wszystkich turniejach w `tournaments.txt`
 
 ## Lista turniejów
