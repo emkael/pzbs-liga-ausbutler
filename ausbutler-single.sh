@@ -14,6 +14,9 @@ ls config.template | while read CONFIGFILE
 do
     envsubst < config.template/$CONFIGFILE > config/$CONFIGFILE
 done
+
 python jfrteamy-ausbutler/butler.py calculate generate nowait
+
+lftp -f config/send.lftp
 
 echo "Done"
