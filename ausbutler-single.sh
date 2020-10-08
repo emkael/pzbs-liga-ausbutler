@@ -5,6 +5,8 @@ cd "$(dirname "$0")"
 
 echo "Processing $TOURNAMENT..."
 
+mkdir -p config
+
 set -o allexport
 source configs/_common.env
 source configs/$TOURNAMENT.env
@@ -15,11 +17,15 @@ do
     envsubst < config.template/$CONFIGFILE > config/$CONFIGFILE
 done
 
+mkdir -p ${LIGA_AUSBUTLER_OUTPUT_PATH}
+
 python jfrteamy-ausbutler/butler.py calculate generate nowait
 
 if command -v lftp &> /dev/null
 then
     lftp -f config/send.lftp
 fi
+
+rm config/*
 
 echo "Done"
