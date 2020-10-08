@@ -1,1 +1,1 @@
-configs/*/db.json filter=git-crypt diff=git-crypt
+configs/*.env filter=git-crypt diff=git-crypt

@@ -1,0 +1,6 @@
+{
+    "user": "${LIGA_AUSBUTLER_DB_USER}",
+    "pass": "${LIGA_AUSBUTLER_DB_PASS}",
+    "db": "${LIGA_AUSBUTLER_DB_NAME}",
+    "host": "${LIGA_AUSBUTLER_DB_HOST}"
+}

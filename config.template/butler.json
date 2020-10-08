@@ -4,5 +4,5 @@
     "opponent_factor": 0.5,
     "only_current": 0,
     "segments_in_table_limit": 10,
-    "output_path": "./output"
+    "output_path": "${LIGA_AUSBUTLER_OUTPUT_PATH}"
 }
