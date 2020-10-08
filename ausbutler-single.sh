@@ -17,6 +17,9 @@ done
 
 python jfrteamy-ausbutler/butler.py calculate generate nowait
 
-lftp -f config/send.lftp
+if command -v lftp &> /dev/null
+then
+    lftp -f config/send.lftp
+fi
 
 echo "Done"
