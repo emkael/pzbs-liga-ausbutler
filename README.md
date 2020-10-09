@@ -35,13 +35,15 @@ Konfiguracja generowana jest następująco:
 
 3. Uruchamiany jest `jfrteamy-ausbutler`, z konfiguracją zdefiniowaną poprzez skompilowany zestaw plików `config/*.json`.
 
-4. Jeśli w systemie obecne jest narzędzie `lftp`, uruchamiane jest z żądaniem wykonania skryptu skompilowanego do `config/send.lftp`.
+4. Jeśli w systemie obecne jest narzędzie `lftp` i ustawiona jest zmienna `LIGA_AUSBUTLER_FTP_ENABLED`, uruchamiane jest `lftp` z żądaniem wykonania skryptu skompilowanego do `config/send.lftp`.
 
 ## Zmienne konfiguracyjne
 
 `LIGA_AUSBUTLER_DB_HOST`, `LIGA_AUSBUTLER_DB_USER`, `LIGA_AUSBUTLER_DB_PASS`, `LIGA_AUSBUTLER_DB_NAME` - paramatery MySQL (host, użytkownik, hasło, nazwa bazy danych turnieju)
 
 `LIGA_AUSBUTLER_OUTPUT_PATH` - katalog wyjściowy dla plików z wynikami
+
+`LIGA_AUSBUTLER_FTP_ENABLED` - obecność tej zmiennej włącza wysyłanie po FTP
 
 `LIGA_AUSBUTLER_FTP_HOST`, `LIGA_AUSBUTLER_FTP_USER`, `LIGA_AUSBUTLER_FTP_PASS`, `LIGA_AUSBUTLER_FTP_PATH` - parametry FTP (host, użytkownik, hasło, ścieżka na zdlanym serwerze)
 

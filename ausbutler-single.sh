@@ -23,7 +23,12 @@ python jfrteamy-ausbutler/butler.py calculate generate nowait
 
 if command -v lftp &> /dev/null
 then
-    lftp -f config/send.lftp
+    if [ -z ${LIGA_AUSBUTLER_FTP_ENABLED+x} ]
+    then
+        :
+    else
+        lftp -f config/send.lftp
+    fi
 fi
 
 rm config/*
