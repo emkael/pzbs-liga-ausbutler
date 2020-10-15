@@ -1,8 +1,9 @@
-eklasa
-1s
-2ne
-2nw
-2se
-2sw
-b2
-b0
+# eklasa
+# 1s
+1n
+# 2ne
+# 2nw
+# 2se
+# 2sw
+# b2
+# b0
