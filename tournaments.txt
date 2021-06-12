@@ -1,6 +1,5 @@
-eklasa
 1s
-1n
+1n_b
 2ne
 2nw
 2se
