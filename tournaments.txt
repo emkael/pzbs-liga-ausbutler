@@ -1,9 +1,1 @@
-1s
-1n_b
-2ne
-2nw
-2se
-2sw
-b2
-b1
-b0
+1n
