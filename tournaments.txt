@@ -5,6 +5,6 @@ eklasa
 2nw
 2se
 2sw
-b0
 b1
 b2
+b0
